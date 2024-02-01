@@ -1,0 +1,259 @@
+@media (max-width: 576px) {
+    .burger{
+        display: block!important ;
+      
+    }
+    nav{
+        display: none!important;
+    }
+
+    .section3{
+        flex-wrap: wrap;
+       
+    }
+
+    .section1C h5 {
+        font-size:150% !important; 
+
+    }
+
+    .section1 h5 {
+        font-size: 200%; 
+
+    }
+
+    .inputNews{
+        flex-wrap: wrap;
+    }
+
+    .newsletter button{
+        width: 100px;
+        margin-top: 10px;
+    
+    }
+
+    .logoNav{
+        display: flex;
+        justify-content: center;
+        background-color: rgba(50,41,69,1);
+
+    }
+
+    .logoNav img{
+        display: flex!important;
+        justify-content: center!important;
+        background-color: rgba(50,41,69,1);
+
+        width: 30%;
+    
+    }
+
+.cardFormations {
+    margin-bottom: 20px !important;
+
+}
+
+.videoF1{
+    flex-wrap: wrap;
+  
+
+}
+
+.section1F{
+    font-size: 50%;
+}
+
+video {
+    width:350px; 
+    margin-bottom: 40px;
+}
+
+.youtubeTemoignage{
+    flex-wrap: wrap;
+
+}
+
+}
+
+
+/* ### TABLET ### */
+@media (min-width: 577px) and (max-width: 768px) {
+    .burger{
+        display: block!important ;
+    
+    }
+
+    nav{
+        display: none!important;
+
+    }
+
+    .section3{
+        flex-wrap: wrap;
+    
+    }
+    .section1C h5 {
+        font-size:150% !important; 
+
+    }
+
+    .section1 h5 {
+        font-size: 300%; 
+
+    }
+
+    .inputNews{
+        flex-wrap: wrap;
+
+    }
+
+    .newsletter button{
+        width: 100px;
+    
+    }
+
+    .logoNav{
+        display: flex;
+        justify-content: center;
+        background-color: rgba(50,41,69,1);
+
+    }
+
+    .logoNav img{
+        display: flex!important;
+        justify-content: center!important;
+        background-color: rgba(50,41,69,1);
+
+        width: 30%;
+    
+    }
+
+    .cardFormations {
+        margin-bottom: 20px !important;
+    
+    }
+
+    
+.videoF1{
+    flex-wrap: wrap;
+  
+
+}
+
+.section1F{
+    font-size: 200%;
+}
+
+video {
+    width:350px; 
+    margin-bottom: 40px;
+}
+
+.youtubeTemoignage{
+    flex-wrap: wrap;
+
+}
+
+.videoF1{
+    flex-wrap: wrap;
+  
+
+}
+
+.section1F{
+    font-size: 50%;
+}
+
+video {
+    width:350px; 
+    margin-bottom: 40px;
+}
+
+.youtubeTemoignage{
+    flex-wrap: wrap;
+
+}
+
+
+}
+
+
+/* ### DESKTOP ### */
+@media (min-width: 769px) and (max-width: 1024px){
+    .burger{
+        display: block!important ;
+    
+    }
+    nav{
+        display: none!important;
+    }
+
+    .inputNews{
+        flex-wrap: wrap;
+
+    }
+
+    .section1C h5 {
+        font-size:150% !important; 
+
+    }
+    
+    .section1 h5 {
+        font-size: 300%; 
+
+    }
+
+    .newsletter button{
+        width: 100px;
+    
+    }
+
+    .logoNav{
+        display: flex;
+        justify-content: center;
+        background-color: rgba(50,41,69,1);
+
+    }
+
+    .logoNav img{
+        display: flex!important;
+        justify-content: center!important;
+        background-color: rgba(50,41,69,1);
+
+        width: 30%;
+    
+    }
+
+    .cardFormations {
+        margin-bottom: 20px !important;
+    
+    }
+    
+.videoF1{
+    flex-wrap: wrap;
+  
+
+}
+
+.section1F{
+    font-size: 50%;
+}
+
+video {
+    width:350px; 
+    margin-bottom: 40px;
+}
+
+.youtubeTemoignage{
+    flex-wrap: wrap;
+
+}
+
+
+}
+
+
+
+
+/* ### BIG DESKTOP ### */
+@media (min-width: 1025px){}

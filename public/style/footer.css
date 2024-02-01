@@ -1,0 +1,16 @@
+footer {
+    background-color: rgba(50,41,69,1) ;
+
+
+}
+
+.copyright {
+    display: flex; 
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.47);
+    letter-spacing: 6px;
+    font-size: 0.7em;
+    font-weight: 0;
+
+}
