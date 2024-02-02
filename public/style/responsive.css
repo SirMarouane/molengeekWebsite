@@ -1,11 +1,73 @@
 @media (max-width: 576px) {
-    .burger{
-        display: block!important ;
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ menu burger $$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+.menuItem {
+    display: block;
+    margin: 0;
+    font-size: 0.5rem;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+
+.menuItem:hover {
+    text-decoration: underline;
+
+}
+    
+.hamburger {
+    display: block !important;
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    color: rgb(13, 108, 167);
+    
+}
+
+.accueilButton img{
+    display: none;   
+
+}
       
-    }
-    nav{
+.closeIcon {
+    display: none  ;
+    visibility: hidden;
+
+}
+
+.parentNavBar {
+    position: fixed;
+    transform: translateY(-200%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: rgb(64, 0, 99);
+    color: white;
+    list-style: none;
+    padding-top: 1rem;
+    flex-direction: column;
+
+}
+
+.showMenu {
+    transform: translateY(0);
+
+}
+
+
+  /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+   
+  /* nav{
         display: none!important;
-    }
+    } */
 
     .section3{
         flex-wrap: wrap;
@@ -32,21 +94,21 @@
     
     }
 
-    .logoNav{
-        display: flex;
-        justify-content: center;
-        background-color: rgba(50,41,69,1);
+.logoNav{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(50,41,69,1);
 
-    }
+}
 
-    .logoNav img{
-        display: flex!important;
-        justify-content: center!important;
-        background-color: rgba(50,41,69,1);
+.logoNav img{
+    display: flex!important;
+    justify-content: center!important;
+    background-color: rgba(50,41,69,1);
 
-        width: 30%;
-    
-    }
+    width: 30%;
+
+}
 
 .cardFormations {
     margin-bottom: 20px !important;
@@ -78,14 +140,65 @@ video {
 
 /* ### TABLET ### */
 @media (min-width: 577px) and (max-width: 768px) {
-    .burger{
-        display: block!important ;
+    .menuItem {
+        display: block;
+        margin: 0;
+        font-size: 0.5rem;
+        color: white;
+        text-decoration: none;
+        width: 100%;
+    }
+    
+    .menuItem:hover {
+        text-decoration: underline;
     
     }
-
-    nav{
-        display: none!important;
-
+        
+    .hamburger {
+        display: block !important;
+        position: fixed;
+        z-index: 100;
+        top: 1rem;
+        right: 1rem;
+        padding: 4px;
+        background: transparent;
+        cursor: pointer;
+        border: none;
+        color: rgb(13, 108, 167);
+        
+    }
+    
+    .accueilButton img{
+        display: none;   
+    
+    }
+          
+    .closeIcon {
+        display: none  ;
+        visibility: hidden;
+    
+    }
+    
+    .parentNavBar {
+        position: fixed;
+        transform: translateY(-200%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99;
+        background: rgb(0, 0, 0);
+        color: white;
+        list-style: none;
+        padding-top: 1rem;
+        flex-direction: column;
+    
+    }
+    
+    .showMenu {
+        transform: translateY(0);
+    
     }
 
     .section3{
@@ -134,45 +247,45 @@ video {
     }
 
     
-.videoF1{
-    flex-wrap: wrap;
-  
+    .videoF1{
+        flex-wrap: wrap;
+    
 
-}
+    }
 
-.section1F{
-    font-size: 200%;
-}
+    .section1F{
+        font-size: 200%;
+    }
 
-video {
-    width:350px; 
-    margin-bottom: 40px;
-}
+    video {
+        width:350px; 
+        margin-bottom: 40px;
+    }
 
-.youtubeTemoignage{
-    flex-wrap: wrap;
+    .youtubeTemoignage{
+        flex-wrap: wrap;
 
-}
+    }
 
-.videoF1{
-    flex-wrap: wrap;
-  
+    .videoF1{
+        flex-wrap: wrap;
+    
 
-}
+    }
 
-.section1F{
-    font-size: 50%;
-}
+    .section1F{
+        font-size: 50%;
+    }
 
-video {
-    width:350px; 
-    margin-bottom: 40px;
-}
+    video {
+        width:350px; 
+        margin-bottom: 40px;
+    }
 
-.youtubeTemoignage{
-    flex-wrap: wrap;
+    .youtubeTemoignage{
+        flex-wrap: wrap;
 
-}
+    }
 
 
 }
@@ -180,12 +293,65 @@ video {
 
 /* ### DESKTOP ### */
 @media (min-width: 769px) and (max-width: 1024px){
-    .burger{
-        display: block!important ;
+    .menuItem {
+        display: block;
+        margin: 0;
+        font-size: 0.5rem;
+        color: white;
+        text-decoration: none;
+        width: 100%;
+    }
+    
+    .menuItem:hover {
+        text-decoration: underline;
     
     }
-    nav{
-        display: none!important;
+        
+    .hamburger {
+        display: block !important;
+        position: fixed;
+        z-index: 100;
+        top: 1rem;
+        right: 1rem;
+        padding: 4px;
+        background: transparent;
+        cursor: pointer;
+        border: none;
+        color: rgb(13, 108, 167);
+        
+    }
+    
+    .accueilButton img{
+        display: none;   
+    
+    }
+          
+    .closeIcon {
+        display: none  ;
+        visibility: hidden;
+    
+    }
+    
+    .parentNavBar {
+        position: fixed;
+        transform: translateY(-200%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99;
+        background: rgb(0, 0, 0);
+        color: white;
+        list-style: none;
+        padding-top: 1rem;
+        flex-direction: column;
+    
+    }
+    
+    .showMenu {
+        transform: translateY(0);
+    
     }
 
     .inputNews{

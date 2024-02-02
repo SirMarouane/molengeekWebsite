@@ -21,12 +21,15 @@
     <header>
 
         <div class="logoNav" >
-            <img src="./../assets/image/logoMilieu-removebg-preview.png"  alt="" style="display: none;">
-        </div>
+            <a href="./../../index.html"> <img src="./../assets/image/logoMilieu-removebg-preview.png"  alt="" style="display: none;"></a>
+         </div>
         
-        <div>
-            <img class="burger" src="./../assets/image/menu.png" alt="" style="position: absolute; display: none;">
-        </div>
+        <button class="hamburger" style="display: none;">
+            <span class="material-icons menuIcon">
+                menu
+                </span>
+            <i class="closeIcon material-icons">close</i>
+          </button>
         
         <nav>
             
@@ -39,31 +42,31 @@
             <div class="parentNavBar">
     
                 <div class="enfantNavBar">
-                    <a href="./formations.html">FORMATIONS</a>
+                    <a class="menuItem" href="./formations.html">FORMATIONS</a>
                 </div>
     
                 <div class="enfantNavBar">
-                    <a href="./coworking.html">COWORKING</a>
+                    <a class="menuItem" href="./coworking.html">COWORKING</a>
                 </div>
     
                 <div class="enfantNavBar">
-                    <a href="">AGENDA</a>
+                    <a class="menuItem" href="">AGENDA</a>
                 </div>
     
                 <div class="enfantNavBar" >
-                    <a  href="./aPropos.html" style="display: inline-flex;width: 62px;">A PROPOS</a>
+                    <a class="menuItem"  href="./aPropos.html" style="display: inline-flex;width: 220%;">A PROPOS</a>
                 </div>
     
                 <div class="enfantNavBar">
-                    <a href="">PRESSE</a>
+                    <a class="menuItem" href="">PRESSE</a>
                 </div>
 
                 <div class="enfantNavBar">
-                    <a href="./job.html">JOBS</a>
+                    <a class="menuItem" href="./job.html">JOBS</a>
                 </div>
     
                 <div >
-                    <a href="" class="contactButton">CONTACT</a>
+                    <a class="menuItem contactButton" href="" >CONTACT</a>
                 </div>
     
             </div>
@@ -72,6 +75,7 @@
     
     
     </header>
+    
     <main>
         <section class="section1C">
         
@@ -138,25 +142,25 @@
 
         <div style="display: flex; justify-content: center;gap: 4%; padding-top: 5%; padding-bottom: 2%; border-bottom: solid 1px #1d8cb830;">
 
-            <div>
+            <div class="reseaux">
                 <a href="" class="facebook">
                 <img src="./../assets/image/facebook (1).png" alt="">
                 </a>
             </div>
 
-            <div>
+            <div class="reseaux">
                 <a href=""  class="twitter">
                 <img src="./../assets/image/twitter (3).png" alt="">
                  </a>
             </div>
 
-            <div>
+            <div class="reseaux">
                 <a href="" class="instagram">
                 <img src="./../assets/image/instagram.png" alt="" >
                 </a>
             </div>
 
-            <div>
+            <div class="reseaux">
                 <a href="" class="linkedin">
                 <img src="./../assets/image/linkedin.png" alt="" >
                  </a>
@@ -178,5 +182,11 @@
     <script src="./../../node_modules/@popperjs/core/dist/umd/popper.js"></script>
 
     <script type="module" src="./../js/main.js"></script>
+    <script type="module" src="./../js/job.js"></script>
+    <script type="module" src="./../js/dateImportante.js"></script>
+    <script type="module" src="./../js/faq.js"></script>
+    <script type="module" src="./../js/accordeon.js"></script>
+    <script type="module" src="./../js/menuBurger.js"></script>
+    
 </body>
 </html>
